@@ -30,5 +30,7 @@ However, the second version of this script which is (v2), has some of the Attrib
       
       ##### AttributeError: module ‘cv2.cv2’ has no attribute ‘ximgproc’  ######
       
-Where, this can be corrected by, installing the additional dependencies for opencv from:
+Where, this can be corrected by, installing the additional dependencies for opencv, depending on your OS and OpenCV version from:
+#                                                      https://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv
+#                     $$$
 #                                                      http://timosam.com/opencv-3-contributions-python-3-numpy-intel-mkl-support-many
