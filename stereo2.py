@@ -61,3 +61,5 @@ sobelx = cv2.Sobel(img,cv2.CV_64F,1,0,ksize=5)
 img2 = cv2.imwrite("Left6.png", img)
 display_img(sobelx,cmap='gray')
 
+if __name__ == '__main__':
+    print("Stereo-to-Depth-manipulations")
