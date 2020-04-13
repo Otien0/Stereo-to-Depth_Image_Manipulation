@@ -25,7 +25,10 @@ Stereo vision is similar to human binocular vision. Objets which are closer to o
 # https://github.com/abidrahmank/OpenCV2-Python-Tutorials/blob/master/source/py_tutorials/py_calib3d/py_depthmap/py_depthmap.rst
 
 However, the second version of this script which is (v2), has some of the Attribute Errors resulting from;
+      
       ##### right_matcher = cv2.ximgproc.createRightMatcher(left_matcher) ######
+      
       ##### AttributeError: module ‘cv2.cv2’ has no attribute ‘ximgproc’  ######
+      
 Where, this can be corrected by, installing the additional dependencies for opencv from:
 #                                                      http://timosam.com/opencv-3-contributions-python-3-numpy-intel-mkl-support-many
